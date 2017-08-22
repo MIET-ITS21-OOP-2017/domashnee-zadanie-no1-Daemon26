@@ -11,13 +11,13 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             begin:
-            Console.WriteLine("Введите значение длинны окружности: ");
+            Console.WriteLine("Введите значение длины окружности: ");
                 double L;
                            
             L = double.Parse(Console.ReadLine());
             if (L < 0)
             {
-                Console.WriteLine("Неверное значение Длинны окружности");
+                Console.WriteLine("Неверное значение Длины окружности");
                 goto begin;
             }         
             double R = L / 3.14 / 2;
