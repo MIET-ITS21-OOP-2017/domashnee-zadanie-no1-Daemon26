@@ -19,12 +19,11 @@ namespace ConsoleApplication1
             {
                 Console.WriteLine("Неверное значение Длинны окружности");
                 goto begin;
-            }
-         
-            double R = 2 * 3.14 * L;
-            Console.WriteLine($"Радиус окружности равен: {R} см.");
+            }         
+            double R = L / 3.14 / 2;
+            Console.WriteLine($"Радиус окружности равен: {R:0.00} см.");
             double S = 3.14 * R * R;
-            Console.WriteLine($"Площадь окружности равна: {S} кв.см.");
+            Console.WriteLine($"Площадь окружности равна: {S:0.00} кв.см.");
 
 
         }
