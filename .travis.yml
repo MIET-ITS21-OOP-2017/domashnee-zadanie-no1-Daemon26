@@ -1,5 +1,8 @@
 language: csharp
-solution: ConsoleApplication2.sln
+solution: ConsoleApplication2/ConsoleApplication2.sln
   
 script:
+
+  - cd ConsoleApplication2
   - xbuild ConsoleApplication2.sln
+  
